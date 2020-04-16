@@ -1,0 +1,5 @@
+## Interface: 11302
+## Title: ClassicTargetSet
+## Author: Hatherol
+## SavedVariablesPerCharacter:
+ClassicTargetSet.lua
