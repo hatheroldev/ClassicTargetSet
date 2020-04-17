@@ -44,7 +44,7 @@ SlashCmdList['CTS_SET'] = cts.replace
 SLASH_CTS_SET1 = '/cts'
 
 function cts.sample(macro)
-   CreateMacro('cts1', "INV_MISC_QUESTIONMARK", '#showtooltip [nomod] Verwandlung\n/target [nomod] x\n/stopcasting [nomod,exists,harm]\n/spell [nomod,exists,harm] Verwandlung\n/cts cts1')
+   CreateMacro('cts1', "INV_MISC_QUESTIONMARK", '#showtooltip [nomod] Verwandlung\n/target [nomod] x\n/stopcasting [nomod,exists,harm]\n/spell [nomod,exists,harm] Verwandlung\n/stopmacro [nomod]\n/cts cts1')
    DEFAULT_CHAT_FRAME:AddMessage("CTS: Sample macro cts1 created!", 0.0, 1.0, 1.0)
 end
 SlashCmdList['CTS_SAMPLE'] = cts.sample
